@@ -1,6 +1,11 @@
 package com.wewabeacon;
 
+import android.os.Bundle;
+
 import com.facebook.react.ReactActivity;
+import com.facebook.react.ReactActivityDelegate;
+
+import javax.annotation.Nullable;
 
 public class MainActivity extends ReactActivity {
 
@@ -9,19 +14,16 @@ public class MainActivity extends ReactActivity {
         return "WewaBeacon";
     }
 
-
-//    @Override
-//    protected ReactActivityDelegate createReactActivityDelegate() {
-//        return new ReactActivityDelegate(this, getMainComponentName()) {
-//            @Override
-//            protected Bundle getLaunchOptions() {
-//                Bundle launchOptions = new Bundle();
-//                launchOptions.putString("buildType", BuildConfig.BUILD_TYPE);
-//                return launchOptions;
-//            }
-//        };
-//    }
-
-
-
+    @Override
+    protected ReactActivityDelegate createReactActivityDelegate() {
+        return new ReactActivityDelegate(this, getMainComponentName()){
+            @Nullable
+            @Override
+            protected Bundle getLaunchOptions() {
+                Bundle initialProperties = new Bundle();
+                initialProperties.putString("value","Im the first var");
+                return super.getLaunchOptions();
+            }
+        };
+    }
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text,StyleSheet,TouchableOpacity } from 'react-native';
+import {Actions} from 'react-native-router-flux'
 
 export default class Start extends Component {
   constructor(props) {
@@ -11,7 +12,7 @@ export default class Start extends Component {
   render() {
     return (
       <View style={styles.view}>
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity style={styles.button} onPress={()=>Actions.name()}>
           <Text style={styles.buttonText}> LET'S START</Text>
           </TouchableOpacity>
       </View>

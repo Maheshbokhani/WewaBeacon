@@ -5,20 +5,21 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* WewaBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WewaBeaconTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		14FFB8EF1E5B72D88E338D46 /* libPods-WewaBeacon-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A74CF9AA2B0971B312462550 /* libPods-WewaBeacon-tvOS.a */; };
 		281685509CCE56D2AC9775C3 /* libPods-WewaBeacon-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 444C01ABEFB9F0CF3C15F1CE /* libPods-WewaBeacon-tvOSTests.a */; };
-		29EADFA088E356152F140404 /* libPods-WewaBeaconTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAEAD0CC681626FCED507D0 /* libPods-WewaBeaconTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* WewaBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WewaBeaconTests.m */; };
-		7E0BA451AB242D54ECAEDAB3 /* libPods-WewaBeacon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1C3C961AA0BA434B83F8FC /* libPods-WewaBeacon.a */; };
+		472C34E7DAEAC97BF6AB2B1C /* libPods-WewaBeacon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1C3C961AA0BA434B83F8FC /* libPods-WewaBeacon.a */; };
+		51BD355DDC91B0C8C94243D4 /* libPods-WewaBeacon-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A74CF9AA2B0971B312462550 /* libPods-WewaBeacon-tvOS.a */; };
+		E810C5DDD641CD05094551B1 /* libPods-WewaBeaconTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAEAD0CC681626FCED507D0 /* libPods-WewaBeaconTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,20 +52,20 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = WewaBeacon/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WewaBeacon/main.m; sourceTree = "<group>"; };
 		200941E090F6DBD498DC3D8A /* Pods-WewaBeacon-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WewaBeacon-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WewaBeacon-tvOSTests/Pods-WewaBeacon-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BA3C0042D97C4581B7CE7B8 /* Pods-WewaBeaconTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WewaBeaconTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WewaBeaconTests/Pods-WewaBeaconTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* WewaBeacon-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WewaBeacon-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* WewaBeacon-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WewaBeacon-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		444C01ABEFB9F0CF3C15F1CE /* libPods-WewaBeacon-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WewaBeacon-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FAE573456225039644A7FDC /* Pods-WewaBeacon-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WewaBeacon-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WewaBeacon-tvOSTests/Pods-WewaBeacon-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		672A76F543592C6A8DF87544 /* Pods-WewaBeacon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WewaBeacon.release.xcconfig"; path = "Pods/Target Support Files/Pods-WewaBeacon/Pods-WewaBeacon.release.xcconfig"; sourceTree = "<group>"; };
-		6EF102802644C07AF7BDA612 /* Pods-WewaBeaconTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WewaBeaconTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WewaBeaconTests/Pods-WewaBeaconTests.release.xcconfig"; sourceTree = "<group>"; };
+		60BE323FCAD9A07196A20024 /* Pods-WewaBeacon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WewaBeacon.release.xcconfig"; path = "Pods/Target Support Files/Pods-WewaBeacon/Pods-WewaBeacon.release.xcconfig"; sourceTree = "<group>"; };
+		79AACF09B35823C18BC60081 /* Pods-WewaBeacon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WewaBeacon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WewaBeacon/Pods-WewaBeacon.debug.xcconfig"; sourceTree = "<group>"; };
 		8F1C3C961AA0BA434B83F8FC /* libPods-WewaBeacon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WewaBeacon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5CF6887D87503E9C58D5941 /* Pods-WewaBeaconTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WewaBeaconTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WewaBeaconTests/Pods-WewaBeaconTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A74CF9AA2B0971B312462550 /* libPods-WewaBeacon-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WewaBeacon-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD59A48F1D126B1C91C03156 /* Pods-WewaBeacon-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WewaBeacon-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WewaBeacon-tvOS/Pods-WewaBeacon-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		ECC3977B77758A50DD774C78 /* Pods-WewaBeacon-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WewaBeacon-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WewaBeacon-tvOS/Pods-WewaBeacon-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BBE7162454C536D3FF0A1E5C /* Pods-WewaBeacon-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WewaBeacon-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WewaBeacon-tvOS/Pods-WewaBeacon-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		D234DD08A8FD2137C13B37D3 /* Pods-WewaBeaconTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WewaBeaconTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WewaBeaconTests/Pods-WewaBeaconTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0F244E52D49F3AC114CECFF /* Pods-WewaBeacon-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WewaBeacon-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WewaBeacon-tvOS/Pods-WewaBeacon-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EDF2CD0DDFDE9A8CE2A0B144 /* Pods-WewaBeacon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WewaBeacon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WewaBeacon/Pods-WewaBeacon.debug.xcconfig"; sourceTree = "<group>"; };
 		FFAEAD0CC681626FCED507D0 /* libPods-WewaBeaconTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WewaBeaconTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29EADFA088E356152F140404 /* libPods-WewaBeaconTests.a in Frameworks */,
+				E810C5DDD641CD05094551B1 /* libPods-WewaBeaconTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E0BA451AB242D54ECAEDAB3 /* libPods-WewaBeacon.a in Frameworks */,
+				472C34E7DAEAC97BF6AB2B1C /* libPods-WewaBeacon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14FFB8EF1E5B72D88E338D46 /* libPods-WewaBeacon-tvOS.a in Frameworks */,
+				51BD355DDC91B0C8C94243D4 /* libPods-WewaBeacon-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +125,6 @@
 		0676AE4122F966D400EF7E37 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				987C23BE70164BBF82172472 /* libRNBluetoothState.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -193,14 +193,14 @@
 		91F34C22BD3B497527AB76BA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EDF2CD0DDFDE9A8CE2A0B144 /* Pods-WewaBeacon.debug.xcconfig */,
-				672A76F543592C6A8DF87544 /* Pods-WewaBeacon.release.xcconfig */,
-				ECC3977B77758A50DD774C78 /* Pods-WewaBeacon-tvOS.debug.xcconfig */,
-				DD59A48F1D126B1C91C03156 /* Pods-WewaBeacon-tvOS.release.xcconfig */,
 				200941E090F6DBD498DC3D8A /* Pods-WewaBeacon-tvOSTests.debug.xcconfig */,
 				5FAE573456225039644A7FDC /* Pods-WewaBeacon-tvOSTests.release.xcconfig */,
-				A5CF6887D87503E9C58D5941 /* Pods-WewaBeaconTests.debug.xcconfig */,
-				6EF102802644C07AF7BDA612 /* Pods-WewaBeaconTests.release.xcconfig */,
+				79AACF09B35823C18BC60081 /* Pods-WewaBeacon.debug.xcconfig */,
+				60BE323FCAD9A07196A20024 /* Pods-WewaBeacon.release.xcconfig */,
+				D234DD08A8FD2137C13B37D3 /* Pods-WewaBeaconTests.debug.xcconfig */,
+				2BA3C0042D97C4581B7CE7B8 /* Pods-WewaBeaconTests.release.xcconfig */,
+				E0F244E52D49F3AC114CECFF /* Pods-WewaBeacon-tvOS.debug.xcconfig */,
+				BBE7162454C536D3FF0A1E5C /* Pods-WewaBeacon-tvOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -212,7 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "WewaBeaconTests" */;
 			buildPhases = (
-				5F4E1C5B436AC385DB0C88FF /* [CP] Check Pods Manifest.lock */,
+				309A10BC8722399958C9B0DA /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -231,7 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WewaBeacon" */;
 			buildPhases = (
-				66CA7C0CD4249EC0B3FCD343 /* [CP] Check Pods Manifest.lock */,
+				CC62DF4B2C0A77C21B6EED10 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -251,7 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "WewaBeacon-tvOS" */;
 			buildPhases = (
-				0B862CC87373B14B65E26E59 /* [CP] Check Pods Manifest.lock */,
+				0D69EC4DE794AAD5C7FFA133 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -329,8 +329,6 @@
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* WewaBeacon */,
@@ -340,9 +338,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		00E356EC1AD99517003FC87E /* Resources */ = {
@@ -393,7 +388,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0B862CC87373B14B65E26E59 /* [CP] Check Pods Manifest.lock */ = {
+		0D69EC4DE794AAD5C7FFA133 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,7 +424,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		5F4E1C5B436AC385DB0C88FF /* [CP] Check Pods Manifest.lock */ = {
+		309A10BC8722399958C9B0DA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -473,7 +468,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		66CA7C0CD4249EC0B3FCD343 /* [CP] Check Pods Manifest.lock */ = {
+		CC62DF4B2C0A77C21B6EED10 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -600,22 +595,18 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5CF6887D87503E9C58D5941 /* Pods-WewaBeaconTests.debug.xcconfig */;
+			baseConfigurationReference = D234DD08A8FD2137C13B37D3 /* Pods-WewaBeaconTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WewaBeaconTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -629,19 +620,15 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EF102802644C07AF7BDA612 /* Pods-WewaBeaconTests.release.xcconfig */;
+			baseConfigurationReference = 2BA3C0042D97C4581B7CE7B8 /* Pods-WewaBeaconTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WewaBeaconTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -655,14 +642,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDF2CD0DDFDE9A8CE2A0B144 /* Pods-WewaBeacon.debug.xcconfig */;
+			baseConfigurationReference = 79AACF09B35823C18BC60081 /* Pods-WewaBeacon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WewaBeacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -678,13 +663,11 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 672A76F543592C6A8DF87544 /* Pods-WewaBeacon.release.xcconfig */;
+			baseConfigurationReference = 60BE323FCAD9A07196A20024 /* Pods-WewaBeacon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WewaBeacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -700,7 +683,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECC3977B77758A50DD774C78 /* Pods-WewaBeacon-tvOS.debug.xcconfig */;
+			baseConfigurationReference = E0F244E52D49F3AC114CECFF /* Pods-WewaBeacon-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -711,14 +694,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "WewaBeacon-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -734,7 +713,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD59A48F1D126B1C91C03156 /* Pods-WewaBeacon-tvOS.release.xcconfig */;
+			baseConfigurationReference = BBE7162454C536D3FF0A1E5C /* Pods-WewaBeacon-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -745,14 +724,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "WewaBeacon-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -778,14 +753,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "WewaBeacon-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -811,14 +782,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "WewaBeacon-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

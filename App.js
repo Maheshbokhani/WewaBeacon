@@ -18,7 +18,6 @@ export default class App extends Component {
           <Scene key="name"
             component={Name}
             hideNavBar
-            
           />
           <Scene key="gender"
             component={Gender}

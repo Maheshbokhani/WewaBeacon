@@ -16,7 +16,7 @@ export default class FlashScreen extends Component {
     componentDidMount(){
       this.timeoutHandle = setTimeout(()=>{
              this.setState({ component: <App/> })
-        }, 3000
+        }, 1000
       );
    } 
    componentWillUnmount(){

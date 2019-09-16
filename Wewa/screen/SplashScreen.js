@@ -31,14 +31,10 @@ export default class SplashScreen extends Component {
         return (
             <View style={styles.view}>
                 <View style={styles.textView}>
+                <Text style={styles.text}>WEWA</Text>
                 <Animated.Image
-                    style={{ transform: [{ rotate: spin }], height: 55, width: 55,marginLeft:250 }}
+                    style={{ transform: [{ rotate: spin }], height: 55, width: 55,marginBottom: 90,marginLeft: -20, }}
                     source={require("../asserts/images/logo.png")} />
-                    <Text style={styles.text}>WEWA</Text>
-                </View>
-                <View style={styles.versionView}>
-                <Text style={styles.version}> versiyon 1.0 </Text>
-                <Text style={styles.version}> {this.props.value} </Text>
                 </View>
             </View>
         );
@@ -47,31 +43,22 @@ export default class SplashScreen extends Component {
 const styles = StyleSheet.create({
     view: {
         flex: 1,
-        backgroundColor: 'white'
+        alignItems:'center',
+        justifyContent:'center',
+        backgroundColor: '#ff8b72'
     },
     textView:{
         flex:0.9,
+        flexDirection:'row',
         alignItems: 'center',
         justifyContent: 'center',
     },
     text: {
-        width: window.width,
+        width: window.with,
         height: window.height,
-        fontSize: 70,
-        color: 'darkred',
+        fontSize: 80,
+        color: '#ffe0db',
         fontWeight: 'bold',
-        marginTop:-30
+       
     },
-    versionView:{
-        flex:0.1,
-        alignItems:'center',
-        justifyContent:'center'
-    },
-    version:{
-        textAlign:'center',
-        width: 250,
-        height: 30,
-        fontSize:20,
-        color:"black", 
-    }
 });
